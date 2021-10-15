@@ -1,0 +1,173 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Hey","hiii"],
+     "responses": ["Hello! I am Marilee! How can I help you.", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": ["age","born"],
+     "patterns": ["how old", "how old is marilee", "what is your age", "how old are you", "age?"],
+     "responses": ["I am 2 months old!", "2 months young!"],
+     "context_set": ""
+    },
+    {"tag": ["create","creator"],
+        "patterns": ["who created you", "how were you born", "how were you made"],
+        "responses": ["I was created by the team of Chatbot for Admissions!", "I was created by Parth and Rajesh also they were guided by Dr.Sasi, Dr.Liu and Dr.Cannell"],
+        "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me marilee.", "I'm marilee!", "I'm marilee aka Help @ marilee."],
+     "context_set": ""
+    },
+    {"tag": ["cookie","coffee","tea"],
+     "patterns": ["Want to come for coffee?","Do you have a cookie"],
+     "responses": ["Every Thursday is A global coffee hour come Meet us!","Thursday 3 to 4.30 at Global offce"],
+     "context_set": ""
+    },
+    {"tag": "hours",
+     "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+     "responses": ["The Office that appoints me is open 8am to 4.30pm, about me I work 24 hours."],
+     "context_set": ""
+    },
+    {"tag": ["location","address"],
+        "patterns": ["where are you located", "what is your address","where is gannon university","where is the school","where is the campus"],
+        "responses": ["We are located at 109 University Square, Erie, PA!"],
+        "context_set": ""
+    },
+    {"tag": ["job","employment"],
+        "patterns": ["How do I get a job on campus", "How do I get employment","How to get a job","How do I get a job"],
+        "responses": ["Log on to https://gannon.peopleadmin.com/ to find your jobs. Also contact Global Office to Check where you can work legally."],
+        "context_set": ""
+    },
+    {"tag": ["accomodation","housing","house"],
+        "patterns": ["How do I find accomodation?", "How do I find housing around university?"],
+        "responses": ["We got great housing facilities at gannon for international students. How ever if you are Grad student you can contact housing options on the website. "],
+        "context_set": ""
+    },
+    {"tag": "food",
+        "patterns": ["Where can I find foods from my country?"],
+        "responses": ["We have a list of restaurants listed online or you can contact global office."],
+        "context_set": ""
+    },
+    {"tag": ["insurance","health"],
+        "patterns": ["Do I need to have health insurance?","Do I need to purchase insurance?","How to get a health Insurance?","Do I need to have insurance"],
+        "responses": ["Yes you do need to have health insurance to continue as a student in gannon. Contact marillee001@gannon.edu for further details."],
+        "context_set": ""
+    },
+    {"tag": ["compulsory","campus","housing","Gannon housing"],
+        "patterns": ["Do I have to live on campus","Is it compulsory to live on campus","when do i live on campus"],
+        "responses": ["If you are under 19 or in first year of undergraduate course you must live on campus."],
+        "context_set": ""
+    },
+    {"tag": ["meal","plan","mealplan"],
+        "patterns": ["Do I have to have a meal plan?","What is the meal plan?"],
+        "responses": ["You can view the Meal plan on Metz Life section of Gannon Website. Use the link https://www.gannon.edu/student-life/living-on-campus/dining/meal-plan-costs/"],
+        "context_set": ""
+    },
+    {"tag": "cook",
+        "patterns": ["Can I cook my own food on campus?"],
+        "responses": ["Yes, you also have that option, but you should learn how to cook first! LOL"],
+        "context_set": ""
+    },
+    {"tag": ["licence","drivers"],
+        "patterns": ["Can I get a driver’s license?","How to get a drivers Licence?"],
+        "responses": ["Go to https://www.dmv.pa.gov/Driver-Services/Driver-Licensing for further information."],
+        "context_set": ""
+    },
+    {"tag": ["social","security"],
+        "patterns": ["How do I get a social security number?"],
+        "responses": ["You should obtain a job on campus to get started with process of social security number."],
+        "context_set": ""
+    },
+    {"tag": ["bank","account"],
+        "patterns": ["How do I open a bank account","How to open a bank account"],
+        "responses": ["Well all the major banks are within 4 block radius so just visit their office with Passport, I20 and other douments."],
+        "context_set": ""
+    },
+    {"tag": ["need","bank","account","social","seurity"],
+        "patterns": ["Can I open a bank account without a social security number?"],
+        "responses": ["Yes, you do not need a social security number to open a bank account."],
+        "context_set": ""
+    },
+    {"tag": ["tax","taxes","file"],
+        "patterns": ["Do I need to file taxes?","How do I file my tax"],
+        "responses": ["If you work on campus you need to file taxes. Also, if you pursue any business interests such as trading stocks"],
+        "context_set": ""
+    },
+    {"tag": ["tax","taxes","file"],
+        "patterns": ["Do I need to file taxes?","How do I file my tax"],
+        "responses": ["If you work on campus you need to file taxes. Also, if you pursue any business interests such as trading stocks"],
+        "context_set": ""
+    },
+    {"tag": ["advisor","professor"],
+        "patterns": ["How do I contact my academic advisor","How to contact my professor","How to mail my advisor"],
+        "responses": ["There is faculty page on the Gannon website where you can find the means to contact the advisor."],
+        "context_set": ""
+    },   
+    {"tag": ["schedule","timetable"],
+        "patterns": ["Where can I find my schedule?","Where can I see my timetable","How to find the timetable","how to find my schedule"],
+        "responses": ["Your schedule is decided once you meet with your advisor after orientation. "],
+        "context_set": ""
+    },  
+    {"tag": ["course","courses","subjects"],
+        "patterns": ["How do I register for courses?","How to select course","How do I select my subjects"],
+        "responses": ["Your advisor will help you register the courses online at self-service on Gannon where you can choose your courses from the catalog."],
+        "context_set": ""
+    },      
+    {"tag": ["English","ESL","proficiency"],
+        "patterns": ["Do I need to take the English Language Placement exam","Is it compulsory to take ESL","Do I Need to take English Proficiency test","Do I need to give ESL"],
+        "responses": ["If you do not meet the minimum requirement for your prospective course’s English proficiency score you must take the exam."],
+        "context_set": ""
+    },  
+    {"tag": ["tution","fees","payment"],
+        "patterns": ["When do I pay my tuition","When do I pay fees","how do i pay my fees","how do i pay my tution"],
+        "responses": ["You pay your deposit before arrival and the rest of it within the week of your arrival."],
+        "context_set": ""
+    },
+    {"tag": ["room","single"],
+        "patterns": ["Can I get a single room on campus","Is it possible to get a single room on campus","how to get a single room"],
+        "responses": ["You need to get in touch of resident advisor at Gannon."],
+        "context_set": ""
+    },
+    {"tag": ["bathroom","washroom","private"],
+        "patterns": ["Do the residence halls on campus have private bathrooms","Do we have a private bathroom at resident"],
+        "responses": ["Yes, most of the resident halls at Gannon have private bathrooms. "],
+        "context_set": ""
+    },
+    {"tag": ["religion","worship","pray"],
+        "patterns": ["Where can I find my place of worship for my faith group?","Where do I pray"],
+        "responses": ["There are various groups at Gannon where you can confine as your faith and you can pray anywhere you like."],
+        "context_set": ""
+    },
+    {"tag": "halal",
+        "patterns": ["Is there halal food in the cafeteria","Can I get halal food in cafetaria","Can I get halal food"],
+        "responses": ["No, there is no halal food in cafeteria. But there are restaurants nearby where you can find them. eg. Shish Kabab"],
+        "context_set": ""
+    },
+    {"tag": "vegetarian",
+        "patterns": ["Is there vegetarian food available in the cafeteria","can i get vegeterian food in cafeteria"],
+        "responses": ["Yes, vegetarian food is available in cafeteria. But there is limited selection."],
+        "context_set": ""
+    },
+    {"tag": "tell",
+        "patterns": ["Tell me about gannon","How about gannon","Tell me more about gannon","Give me some information about gannon"],
+        "responses": ["Gannon University is comprised of two vibrant campuses in Erie, Pa. and Ruskin, Fla. Gannons Erie campus is central to many businesses and organizations that provide students with hands-on learning opportunities. This urban campus in the heart of downtown is within walking distance to restaurants, shopping, entertainment and Lake Erie beaches close by, and is just within a two-hour drive of Cleveland, Buffalo and Pittsburgh. Gannons Ruskin campus is a dynamic and beautiful area between Tampa and Bradenton that rates highly on measures of livability and attractiveness. The campus puts you at the center of a rapidly expanding healthcare sector with opportunities to engage in educational outreach activities."],
+        "context_set": ""
+    },
+    {"tag": ["course","subjects"],
+        "patterns": ["Where can i find my course","Where can i find coursework","what are my subjects"],
+        "responses": ["Check our catalogs at https://www.gannon.edu/academic-offerings/academic-catalogs/"],
+        "context_set": ""
+    },
+    {"tag": ["president","head"],
+        "patterns": ["Who is the president of gannon university","Who is the president of the universiity","Who is gannons president"],
+        "responses": ["In May 2011, Keith Taylor, Ph.D. was appointed the seventh president of Gannon University, a Catholic, diocesan, comprehensive university founded in 1925 by Archbishop John Mark Gannon."],
+        "context_set": ""
+    }
+]
+}
